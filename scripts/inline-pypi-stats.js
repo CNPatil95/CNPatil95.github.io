@@ -166,7 +166,7 @@ async function main() {
     let cursor = 0;
     for (const m of matches) {
       if (!m.indices || !m.indices[1]) {
-        fatal(`${rule.label}: pattern has no capture group (need at least one '(...)')`);
+        fatal(`${rule.label}: pattern /${rule.regex.source}/ has no capture group (need at least one '(...)')`);
       }
       const [captureStart, captureEnd] = m.indices[1];
       const before = currentText.slice(captureStart, captureEnd);
