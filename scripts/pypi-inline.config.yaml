@@ -10,6 +10,9 @@
 #
 # `<name>` is the JSON object key in client/public/data/pypi-stats.json
 # (the lowercase pypi_package value, e.g. `sqlstream`, `smart-commit-ai`).
+# Note: `<name>` may differ from the PyPI URL slug if pypi_package uses
+# different casing than the URL — always use the pypi_package value, not
+# the URL slug. (e.g. URL is `BetterPassphrase`, `<name>` is `betterpassphrase`.)
 #
 # Numbers are formatted compactly:
 #   < 1000:    "123"
