@@ -1,0 +1,269 @@
+cv:
+  name: "Chidambar Patil"
+  tagline: "data engineer building data and ML pipelines on snowflake"
+  location: "Bengaluru, KA"
+  email: "chidambar.1899@gmail.com"
+  phone: "tel:+91-9136046389"
+  website: "https://CNPatil95.github.io"
+  resume_url: "https://CNPatil95.github.io/resume.pdf"
+  social_networks:
+    - network: "GitHub"
+      username: "CNPatil95"
+    - network: "LinkedIn"
+      username: "chidambarpatil"
+
+  sections:
+    technologies:
+      - label: "Programming Languages"
+        details: "Python, Java"
+      - label: "Big Data & Lakehouse Platforms"
+        details: "Databricks, Apache Spark (PySpark)"
+      - label: "Databases & Warehousing"
+        details: "SQL, SQL Server, PostgreSQL, Snowflake, BigQuery"
+      - label: "Cloud Platforms"
+        details: "AWS, GCP, Azure"
+      - label: "ETL/ELT & Orchestration"
+        details: "Databricks Jobs, Airflow, Azure Data Factory"
+      - label: "Analytics & Visualization"
+        details: "Power BI, Tableau, Microsoft Excel"
+      - label: "AI & Productivity Tools"
+        details: "ChatGPT, GitHub Copilot, Cursor"
+
+    experience:
+      - company: "LTTS (Larsen & Toubro Technology Services Ltd)"
+        position: "Consultant"
+        location: "Bengaluru, KA"
+        start_date: "2024-07"
+        end_date: "2025-03"
+        highlights:
+          - "Designed and deployed data pipelines processing EV battery, charging station, and vehicle sensor streams using SQL, Python, PySpark, AWS, Snowflake, and Azure Data Factory."
+          - "Delivered curated datasets for EV battery health monitoring and predictive continuity, partnering with offshore and onsite teams."
+          - "Converted **100+** complex raw sensor data grids into optimized tabular formats for faster processing and analytics."
+          - "Automated workflows with Airflow, **cutting SLA breaches by 20%** and achieving **99.9% pipeline reliability**."
+          - "Built real-time EV analytics dashboards in Power BI, **cutting report generation from hours to minutes**."
+          - "Revamped data validation and quality checks across pipelines, reducing inconsistencies and improving accuracy."
+      - company: "LTTS (Larsen & Toubro Technology Services Ltd)"
+        position: "Intern"
+        location: "Bengaluru, KA"
+        start_date: "2024-03"
+        end_date: "2024-05"
+        highlights:
+          - "Used MATLAB, Simulink, Python, and Flask APIs for simulation, data analysis, and algorithm development."
+          - "Built ELT pipelines in Python and Postgres/Redshift to aggregate inventory and sales data."
+          - "Automated ETL jobs with Airflow; added retry logic and SLA tracking to improve pipeline resilience."
+          - "Enhanced data quality monitoring via dashboards and alerts, **cutting production incidents by 30%**."
+          - "Documented data assets with BI teams, improving transparency and cross-functional adoption."
+
+    education:
+      - institution: "KLS Gogte Institute of Technology"
+        location: "Belagavi, KA"
+        area: "Computer Science & Engineering"
+        degree: "B.E."
+        start_date: "2020-10"
+        end_date: "2024-07"
+
+    personal_projects:
+      - name: "Drive Sense — Smart Car Insurance Lakehouse System"
+        date: "2025-07"
+        highlights:
+          - "Built a Databricks Lakehouse for real-time telematics and policy data ingestion from SQL Server using Lakeflow and Auto Loader."
+          - "Designed a **Bronze–Silver–Gold medallion architecture** with Delta Lake, enforcing schema evolution and quality checks."
+          - "Trained and deployed ML models with MLflow; governed access via Unity Catalog."
+          - "Delivered dashboards and apps with Genie and Databricks Apps for underwriting and claims analytics."
+          - "Automated ingestion and transformations with Databricks Jobs for reliable, low-latency pipelines."
+          - "Stack: Databricks Lakehouse (Delta, MLflow), SQL Server, PySpark, Python."
+      - name: "E-Commerce Customer Analytics Pipeline"
+        date: "2025-05"
+        highlights:
+          - "Built a scalable data pipeline processing customer behavior data for a high-traffic e-commerce platform."
+          - "Extracted data from multiple sources via ETL to enable real-time BI and personalized marketing."
+          - "Transformed data with Apache Spark for cleansing and enrichment, loading into a Snowflake warehouse."
+          - "Modeled with a star schema to optimize query performance, **cutting report generation time by 30%**."
+          - "Orchestrated workflows with Apache Airflow; stored data on AWS S3 with governance and quality controls."
+          - "Stack: Python, SQL, Apache Spark, Snowflake, Airflow, AWS (S3, Redshift)."
+      - name: "Enterprise Data Warehouse Implementation"
+        date: "2025-01"
+        highlights:
+          - "Designed and implemented a SQL data warehouse using Medallion Architecture (Bronze/Silver/Gold) for raw, cleansed, and analytics-ready data."
+          - "Built ETL pipelines in SQL Server to integrate ERP and CRM data from CSV files, improving data quality and accessibility."
+          - "Modeled star schemas with fact/dimension tables for BI reporting and analytics."
+          - "Delivered SQL reports and Tableau dashboards for actionable insights."
+          - "Stack: SQL, Tableau, DrawIO."
+
+    certifications:
+      - name: "Oracle Data Platform 2025 Certified Foundations Associate"
+        highlights:
+          - "Verify: [credential](https://catalog-education.oracle.com/ords/certview/sharebadge?id=8301A52B8B12C73DF8BA252B547AE8E583BAEF6470D064E50B7E099E020878C0)"
+      - name: "Oracle AI Cloud Database Services 2025 Certified Professional"
+        highlights:
+          - "Verify: [credential](https://catalog-education.oracle.com/ords/certview/sharebadge?id=EA781D6435BD030820B66393F6306AE2EA3CB1796BB2F2F5A8B225296D1C40EB)"
+design:
+  theme: engineeringresumes
+  page:
+    size: a4
+    top_margin: 1.05cm
+    bottom_margin: 1.05cm
+    left_margin: 1.05cm
+    right_margin: 1.05cm
+    show_page_numbering: false
+    show_last_updated_date: false
+  colors:
+    text: "#011629"
+    name: "#124d86"
+    connections: "#124d86"
+    section_titles: "#124d86"
+    links: "#124d86"
+    last_updated_date_and_page_numbering: "grey"
+  text:
+    # --- FONTS ---
+    # ----- TOP TIER (Safe & Modern) -----
+    # Inter: The "Silicon Valley Standard." Tall x-height makes it ultra-readable at small sizes (9pt). 
+    #        Perfect for dense, keyword-heavy technical resumes. Clean, invisible, and professional.
+    # Roboto: "Engineered & Geometric." Has straight-sided curves that feel mechanical and precise. 
+    #         Excellent for data/infrastructure roles where you want to signal "structure" and "order."
+    # Open Sans: The "Neutral Choice." Extremely legible, open shapes. It has zero "personality," 
+    #            which is good if you want the recruiter to focus 100% on the content. Safest bet.
+
+    # ----- SPACE SAVERS (If you need to fit more text) -----
+    # Source Sans 3: Designed for UIs and coding. Slightly condensed width. 
+    #                Use this if your resume is spilling onto a new page by just 2-3 lines.
+    # Noto Sans: Similar to Open Sans but with better support for special characters and a slightly 
+    #            tighter vertical rhythm. Good for maximizing vertical space.
+
+    # ----- PERSONALITY (If the resume feels too "cold") -----
+    # Lato: "Humanist Sans." Semi-rounded details give it a friendly, approachable vibe. 
+    #       Use this if you are applying to startups or culture-focused roles to sound less "corporate."
+    # Raleway: (Use for HEADERS ONLY). Elegant and artistic. Too wide/distracting for body text, 
+    #          but makes your Name/Title look very high-end.
+
+    # ----- ACADEMIC / TRADITIONAL (Use for Research/Senior Management) -----
+    # Libertinus Serif: A modern take on Times New Roman. Looks very "Senior" and "Official."
+    #                   Use this if applying to traditional banks, law firms, or PhD research roles.
+    # EB Garamond: The "Classy" choice. Old-style serif. Looks like a book. High prestige, low "tech" vibe.
+    font_family: Inter
+    font_size: 9.6pt
+    alignment: justified
+    date_and_location_column_alignment: right
+    leading: "0.65em"
+  header:
+    name_font_family: Inter
+    name_font_size: 16pt
+    name_bold: true
+    small_caps_for_name: false
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.4cm
+    vertical_space_between_connections_and_first_section: 0.4cm
+    horizontal_space_between_connections: 0.25cm
+    connections_font_family: Inter
+    separator_between_connections: '|'
+    use_icons_for_connections: false
+    make_connections_links: true
+    alignment: center
+  section_titles:
+    type: with-full-line
+    font_family: Inter
+    font_size: 1.3em
+    bold: true
+    small_caps: true
+    vertical_space_above: 0.4cm
+    vertical_space_below: 0.2cm
+  entries:
+    date_and_location_width: 4cm
+    left_and_right_margin: 0cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 1.2em
+    allow_page_break_in_sections: true
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
+  highlights:
+    bullet: •
+    nested_bullet: ◦
+    top_margin: 0.22cm
+    left_margin: 0.3cm
+    vertical_space_between_highlights: 0.22cm
+    horizontal_space_between_bullet_and_highlight: 0.4em
+    summary_left_margin: 0.2cm
+  entry_types:
+    one_line_entry:
+      template: '**LABEL:** DETAILS'
+    education_entry:
+      main_column_first_row_template: |-
+        **INSTITUTION**
+        DEGREE in AREA
+      degree_column_template: ''
+      degree_column_width: 3cm
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    normal_entry:
+      main_column_first_row_template: '**NAME**'
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    experience_entry:
+      main_column_first_row_template: |-
+        **COMPANY**
+        POSITION
+      main_column_second_row_template: |-
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column_template: |-
+        LOCATION
+        DATE
+    publication_entry:
+      main_column_first_row_template: "**TITLE**"
+      main_column_second_row_template: |-
+        AUTHORS
+        URL (JOURNAL)
+      main_column_second_row_without_journal_template: |-
+        AUTHORS
+        URL
+      main_column_second_row_without_url_template: |-
+        AUTHORS
+        JOURNAL
+      date_and_location_column_template: "DATE"
+locale:
+  language: "en"
+  phone_number_format: international
+  page_numbering_template: "NAME - Page PAGE_NUMBER of TOTAL_PAGES"
+  last_updated_date_template: "Last updated in TODAY"
+  date_template: "MONTH_ABBREVIATION YEAR"
+  month: "month"
+  months: "months"
+  year: "year"
+  years: "years"
+  present: "Present"
+  to: "-"
+  abbreviations_for_months:
+    - "Jan"
+    - "Feb"
+    - "Mar"
+    - "Apr"
+    - "May"
+    - "Jun"
+    - "Jul"
+    - "Aug"
+    - "Sep"
+    - "Oct"
+    - "Nov"
+    - "Dec"
+  full_names_of_months:
+    - "January"
+    - "February"
+    - "March"
+    - "April"
+    - "May"
+    - "June"
+    - "July"
+    - "August"
+    - "September"
+    - "October"
+    - "November"
+    - "December"
